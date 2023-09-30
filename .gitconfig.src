@@ -1,0 +1,14 @@
+[user]
+	name = ; -- your publicly visible name, preferably your full name
+	email = ; -- your email address
+
+[core]
+	editor = vi ; -- your favorite text editor for commits. For example vi, nano, joe, etc.
+	autocrlf = input
+
+[merge]
+	tool = meld
+
+[alias]
+	alltree    = !"git log --graph --all      --abbrev-commit --topo-order --decorate --format='%C(cyan)%h%C(reset) - %C(green)(%cr)%C(reset) - %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(yellow)%d%C(reset)'"
+	mytree     = !"git log --graph --branches --abbrev-commit --topo-order --decorate --format='%C(cyan)%h%C(reset) - %C(green)(%cr)%C(reset) - %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(yellow)%d%C(reset)'"
