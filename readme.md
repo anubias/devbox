@@ -66,4 +66,7 @@ To do that, follow the next steps:
 1. In the Devbox window itself (not within the hosted OS), locate the system menu and select **Devices -> Insert Guest Additions CD image**
 2. Wait a short while until a CD image appears on the left-hand task bar inside Ubuntu
 3. Once the icon appears, hover over it and you should see a tooltip similar to **"VBox_GAs_###"**, with the ### characters denoting a particular version
-4. Open a terminal window in Ubuntu (Ctrl+Alt+T) and in it navigate to **/media/vagrant/VBox_GAs_###**
+4. Open a terminal window in Ubuntu (Ctrl+Alt+T) and in it navigate to the **/media/vagrant/VBox_GAs_###** directory
+5. Once there, execute **sudo ./VBoxLinuxAdditions.run**
+6. If prompted, type **yes**
+7. After installation is successful, shutdown the devbox and restart it
