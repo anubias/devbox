@@ -31,7 +31,7 @@ First thing to note is that we have several files which we can modify:
 
 So **before installing the development box**, let's customize the configuration. Use your favorite text editor to modify the next files:
 
-1. First step is to checkout this repository to your local computer.
+1. First step is to clone this repository to your local computer.
 2. Edit the **Vagrantfile** file:
     - Multi devbox considerations. If you want to have multiple devbox machines installed in parallel, check the instructions under this section. Otherwise, you can skip to the next step.
         - Make sure that the entry **"config.vm.define"** is unique between your different devbox-es. This id identifies each virtual image to VirtualBox.
